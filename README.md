@@ -1,2 +1,2 @@
-# MineSweeper-Game-Predictor
-Predicts where the mines are after taking in test cases in the game minesweeper
+# Neural Minesweeper Predictor | AI-Powered Strategic Gameplay
+Welcome to Neural Minesweeper Predictor, a groundbreaking fusion of classic Minesweeper and modern Artificial Intelligence. This project is not just a game — it's a demonstration of how neural networks can be applied creatively to game theory, spatial probability, and predictive modeling. It showcases how machine learning can be used to enhance, augment, and sometimes even outperform human intuition in games of chance and logic.
