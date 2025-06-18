@@ -11,7 +11,6 @@ BOMBS = 2
 TRAIN_GAMES = 5000
 TEST_GAMES = 100
 
-# --- Feature Extraction for ML ---
 def extract_features(index, grid_size=GRID_SIZE):
     row, col = divmod(index, grid_size)
     center_dist = ((row - 2)**2 + (col - 2)**2)**0.5
