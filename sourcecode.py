@@ -15,7 +15,6 @@ def extract_features(index, grid_size=GRID_SIZE):
     row, col = divmod(index, grid_size)
     center_dist = ((row - 2)**2 + (col - 2)**2)**0.5
     
-    # Neighbors count for the index
     neighbors = []
     for dx in [-1, 0, 1]:
         for dy in [-1, 0, 1]:
