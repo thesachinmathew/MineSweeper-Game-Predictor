@@ -23,7 +23,6 @@ def extract_features(index, grid_size=GRID_SIZE):
                 neighbor_index = neighbor_row * grid_size + neighbor_col
                 neighbors.append(neighbor_index)
                 
-    # Limit the feature vector size to ensure consistency
     feature_vector = [index, row, col, center_dist]
     feature_vector.extend(neighbors)
     
